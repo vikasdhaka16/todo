@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:todo/views/Authentication/signup.dart';
+import 'package:todo/views/authentication/signup.dart';
 import 'components/custom_button.dart';
 import 'components/custom_textfield.dart';
 import '../../controllers/login_controller.dart';

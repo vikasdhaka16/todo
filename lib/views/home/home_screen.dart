@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'add_task.dart';
-import 'controller.dart';
+import '../../controllers/home_controller.dart';
 
 class HomeScreen extends StatelessWidget {
   final TaskController controller = Get.put(TaskController());

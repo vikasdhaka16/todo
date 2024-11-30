@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:todo/views/Authentication/components/custom_button.dart';
-import 'controller.dart';
+import '../../controllers/home_controller.dart';
 
 class AddTaskScreen extends StatelessWidget {
   final TaskController controller = Get.find<TaskController>();

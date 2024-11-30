@@ -3,7 +3,7 @@ import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-import '../../models/task.dart';
+import '../models/task.dart';
 
 class TaskController extends GetxController {
   var tasks = <Task>[].obs;

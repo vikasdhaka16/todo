@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'components/custom_button.dart';
 import 'components/custom_textfield.dart';
-import 'controller.dart';
+import '../../controllers/login_controller.dart';
 
 class SignupScreen extends StatelessWidget {
   final loginController = Get.put(LoginController());

@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:todo/views/Authentication/signup.dart';
 import 'components/custom_button.dart';
 import 'components/custom_textfield.dart';
-import 'controller.dart';
+import '../../controllers/login_controller.dart';
 
 class LoginScreen extends StatelessWidget {
   final loginController = Get.put(LoginController());

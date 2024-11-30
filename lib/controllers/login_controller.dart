@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:todo/views/Authentication/login.dart';
 
-import '../home/home_screen.dart';
+import '../views/home/home_screen.dart';
 
 class LoginController extends GetxController {
   var email = ''.obs;
